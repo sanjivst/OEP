@@ -98,8 +98,12 @@
                             <label for="state" class="col-md-4 col-form-label text-md-right">{{ __('State') }}</label>
 
                             <div class="col-md-6">
-                                <input id="state" type="text" class="form-control @error('state') is-invalid @enderror" name="state" value="{{ old('state') }}" required autocomplete="state" autofocus>
-
+                                <select id="state" class="form-control @error('state') is-invalid @enderror" name="state">
+                                    <option value="">--Select Province--</option>    
+                                    @foreach(['Province 1','Province 2','Province 3','Province 4', 'Province 5', 'Province 6', 'Province 7'] as $item)
+                                    <option value="{{$item}}">{{$item}}</option>
+                                    @endforeach
+                                </select>
                                 @error('state')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -141,6 +145,7 @@
 
                             <div class="col-md-6">
                                 <select id="specialized_subject" class="form-control @error('specialized_subject') is-invalid @enderror" name="specialized_subject">
+                                    <option value="">--Select Specialized Course--</option>    
                                     @foreach(['MBBS','MBA','BDS','IELTS'] as $item)
                                         <option value="{{$item}}">{{$item}}</option>
                                     @endforeach
@@ -158,6 +163,7 @@
 
                             <div class="col-md-6">
                                 <select id="assigned_subject" class="form-control @error('assigned_subject') is-invalid @enderror" name="assigned_subject">
+                                    <option value="">--Select Assigned Course--</option>    
                                     @foreach(['MBBS','MBA','BDS','IELTS'] as $item)
                                         <option value="{{$item}}">{{$item}}</option>
                                     @endforeach
