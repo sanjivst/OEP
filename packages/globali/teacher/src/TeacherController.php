@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Globali\Teacher;
 
-use App\Teacher;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class TeacherController extends Controller
@@ -15,7 +15,7 @@ class TeacherController extends Controller
     public function index()
     {
         $teacher=Teacher::all();
-        return view('teacher.teachers')->with('teacher',$teacher);
+        return view('teacher::teacher.teachers')->with('teacher',$teacher);
     }
 
     /**
@@ -25,7 +25,7 @@ class TeacherController extends Controller
      */
     public function create()
     {
-        return view('teacher.teachers_create');
+        return view('teacher::teacher.teachers_create');
     }
 
     /**
@@ -63,7 +63,7 @@ class TeacherController extends Controller
      */
     public function edit(Teacher $teacher)
     {
-        return view('teacher.teachers_edit')->with('teacher', $teacher);
+        return view('teacher::teacher.teachers_edit')->with('teacher', $teacher);
     }
 
     /**
