@@ -1,0 +1,11 @@
+{
+    "name": "client/project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nabin Kumar Singh",
+            "email": "touchnabin@gmail.com"
+        }
+    ],
+    "require": {}
+}
