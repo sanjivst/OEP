@@ -25,7 +25,7 @@ class TeacherController extends Controller
      */
     public function create()
     {
-        return view('teacher::teacher.teachers_create');
+        return view('teacher::teacher.form', ['layout' => 'create']);
     }
 
     /**
@@ -63,7 +63,7 @@ class TeacherController extends Controller
      */
     public function edit(Teacher $teacher)
     {
-        return view('teacher::teacher.teachers_edit')->with('teacher', $teacher);
+        return view('teacher::teacher.form', ['layout' => 'edit'])->with('teacher', $teacher);
     }
 
     /**
@@ -79,7 +79,7 @@ class TeacherController extends Controller
             'name' => 'required',
             'image' => 'file|image|max:10000',
             'address' => 'required|max:50',
-            'phone' => 'required',
+            'phone' => 'required|min:10|max:10|unique:teachers,phone,'.$id,
             'email' => 'required|email|unique:teachers,email,'.$id,
             'nationality' => 'required',
             'state' => 'required',
@@ -128,7 +128,7 @@ class TeacherController extends Controller
             'name' => 'required|min:2',
             'image' => 'required|file|image|max:10000',
             'address' => 'required|max:50',
-            'phone' => 'required',
+            'phone' => 'required|min:10|max:10|unique:teachers',
             'email' => 'required|email|unique:teachers',
             'nationality' => 'required',
             'state' => 'required',
