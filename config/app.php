@@ -173,6 +173,7 @@ return [
         Access\User\UserServiceProvider::class,
         Client\Project\ProjectServiceProvider::class,
         Globali\Teacher\TeacherServiceProvider::class,
+        Globali\Student\StudentServiceProvider::class,
         
         Intervention\Image\ImageServiceProvider::class,
         Alaouy\Youtube\YoutubeServiceProvider::class,

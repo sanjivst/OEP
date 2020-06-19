@@ -130,6 +130,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'Globali\\Teacher\\' => 16,
+            'Globali\\Student\\' => 16,
         ),
         'F' => 
         array (
@@ -389,6 +390,10 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'Globali\\Teacher\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/globali/teacher/src',
+        ),
+        'Globali\\Student\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/globali/student/src',
         ),
         'Fruitcake\\Cors\\' => 
         array (
@@ -1279,7 +1284,11 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'Fideloper\\Proxy\\TrustedProxyServiceProvider' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustedProxyServiceProvider.php',
         'Fruitcake\\Cors\\CorsServiceProvider' => __DIR__ . '/..' . '/fruitcake/laravel-cors/src/CorsServiceProvider.php',
         'Fruitcake\\Cors\\HandleCors' => __DIR__ . '/..' . '/fruitcake/laravel-cors/src/HandleCors.php',
+        'Globali\\Student\\Student' => __DIR__ . '/../..' . '/packages/globali/student/src/Student.php',
+        'Globali\\Student\\StudentController' => __DIR__ . '/../..' . '/packages/globali/student/src/StudentController.php',
+        'Globali\\Student\\StudentServiceProvider' => __DIR__ . '/../..' . '/packages/globali/student/src/StudentServiceProvider.php',
         'Globali\\Teacher\\Teacher' => __DIR__ . '/../..' . '/packages/globali/teacher/src/Teacher.php',
+        'Globali\\Teacher\\TeacherController' => __DIR__ . '/../..' . '/packages/globali/teacher/src/TeacherController.php',
         'Globali\\Teacher\\TeacherServiceProvider' => __DIR__ . '/../..' . '/packages/globali/teacher/src/TeacherServiceProvider.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
         'GuzzleHttp\\ClientInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/ClientInterface.php',
@@ -3974,6 +3983,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'StudentSeeder' => __DIR__ . '/../..' . '/database/seeds/StudentSeeder.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',
