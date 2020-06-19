@@ -184,6 +184,20 @@
                         </ul>
                     </li>
 
+                    <li class="treeview students">
+                        <a href="#">
+                            <i class="fa fa-graduation-cap"></i>
+                            <span>Students</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="students_create"><a href="{{url('admin/students/create')}}"><i class="fa fa-circle-o"></i> Create Students</a></li>
+                            <li class="students_list"><a href="{{url('admin/students')}}"><i class="fa fa-circle-o"></i> List Students</a></li>
+                        </ul>
+                    </li>
+
                     <li class="treeview projects feedbcacks">
                         <a href="#">
                             <i class="fa fa-tasks"></i>
