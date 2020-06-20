@@ -50,7 +50,8 @@
             "Access\\User\\":"packages/access/user/src",
             "Client\\Project\\":"packages/client/project/src",
             "Globali\\Teacher\\":"packages/globali/teacher/src",
-            "Globali\\Student\\":"packages/globali/student/src"
+            "Globali\\Student\\":"packages/globali/student/src",
+            "Globali\\Course\\":"packages/globali/course/src"
         }
     },
     "minimum-stability": "dev",

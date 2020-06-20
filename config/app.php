@@ -174,6 +174,7 @@ return [
         Client\Project\ProjectServiceProvider::class,
         Globali\Teacher\TeacherServiceProvider::class,
         Globali\Student\StudentServiceProvider::class,
+        Globali\Course\CourseServiceProvider::class,
         
         Intervention\Image\ImageServiceProvider::class,
         Alaouy\Youtube\YoutubeServiceProvider::class,

@@ -131,6 +131,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
             'GuzzleHttp\\' => 11,
             'Globali\\Teacher\\' => 16,
             'Globali\\Student\\' => 16,
+            'Globali\\Course\\' => 15,
         ),
         'F' => 
         array (
@@ -395,6 +396,10 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         array (
             0 => __DIR__ . '/../..' . '/packages/globali/student/src',
         ),
+        'Globali\\Course\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/globali/course/src',
+        ),
         'Fruitcake\\Cors\\' => 
         array (
             0 => __DIR__ . '/..' . '/fruitcake/laravel-cors/src',
@@ -569,6 +574,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'Client\\Project\\Project' => __DIR__ . '/../..' . '/packages/client/project/src/Project.php',
         'Client\\Project\\ProjectController' => __DIR__ . '/../..' . '/packages/client/project/src/ProjectController.php',
         'Client\\Project\\ProjectServiceProvider' => __DIR__ . '/../..' . '/packages/client/project/src/ProjectServiceProvider.php',
+        'CourseSeeder' => __DIR__ . '/../..' . '/database/seeds/CourseSeeder.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
@@ -1284,6 +1290,9 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'Fideloper\\Proxy\\TrustedProxyServiceProvider' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustedProxyServiceProvider.php',
         'Fruitcake\\Cors\\CorsServiceProvider' => __DIR__ . '/..' . '/fruitcake/laravel-cors/src/CorsServiceProvider.php',
         'Fruitcake\\Cors\\HandleCors' => __DIR__ . '/..' . '/fruitcake/laravel-cors/src/HandleCors.php',
+        'Globali\\Course\\Course' => __DIR__ . '/../..' . '/packages/globali/course/src/Course.php',
+        'Globali\\Course\\CourseController' => __DIR__ . '/../..' . '/packages/globali/course/src/CourseController.php',
+        'Globali\\Course\\CourseServiceProvider' => __DIR__ . '/../..' . '/packages/globali/course/src/CourseServiceProvider.php',
         'Globali\\Student\\Student' => __DIR__ . '/../..' . '/packages/globali/student/src/Student.php',
         'Globali\\Student\\StudentController' => __DIR__ . '/../..' . '/packages/globali/student/src/StudentController.php',
         'Globali\\Student\\StudentServiceProvider' => __DIR__ . '/../..' . '/packages/globali/student/src/StudentServiceProvider.php',
