@@ -198,6 +198,20 @@
                         </ul>
                     </li>
 
+                    <li class="treeview courses">
+                        <a href="#">
+                            <i class="fa fa-book"></i>
+                            <span>Courses</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="courses_create"><a href="{{url('admin/courses/create')}}"><i class="fa fa-circle-o"></i> Create Courses</a></li>
+                            <li class="courses_list"><a href="{{url('admin/courses')}}"><i class="fa fa-circle-o"></i> List Courses</a></li>
+                        </ul>
+                    </li>
+
                     <li class="treeview projects feedbcacks">
                         <a href="#">
                             <i class="fa fa-tasks"></i>

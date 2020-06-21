@@ -15,6 +15,15 @@ class CreateCoursesTable extends Migration
     {
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->longtext('description');
+            $table->string('image');
+            $table->string('faculty');
+            $table->string('associated_uni');
+            $table->longtext('opportunities');
+            $table->enum('online_course',[1,0])->default(1);
+            $table->enum('online_exam',[1,0])->default(1);
+            $table->string('associated_teacher');
             $table->timestamps();
         });
     }
