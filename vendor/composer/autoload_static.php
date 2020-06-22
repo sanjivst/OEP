@@ -129,6 +129,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'Globali\\Tutorial\\' => 17,
             'Globali\\Teacher\\' => 16,
             'Globali\\Student\\' => 16,
             'Globali\\Course\\' => 15,
@@ -388,6 +389,10 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Globali\\Tutorial\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/globali/tutorial/src',
+        ),
         'Globali\\Teacher\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/globali/teacher/src',
@@ -532,6 +537,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/CorsService.php',
+        'AssignmentSeeder' => __DIR__ . '/../..' . '/database/seeds/AssignmentSeeder.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
         'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',
@@ -1299,6 +1305,16 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'Globali\\Teacher\\Teacher' => __DIR__ . '/../..' . '/packages/globali/teacher/src/Teacher.php',
         'Globali\\Teacher\\TeacherController' => __DIR__ . '/../..' . '/packages/globali/teacher/src/TeacherController.php',
         'Globali\\Teacher\\TeacherServiceProvider' => __DIR__ . '/../..' . '/packages/globali/teacher/src/TeacherServiceProvider.php',
+        'Globali\\Tutorial\\Assignment' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/Assignment.php',
+        'Globali\\Tutorial\\AssignmentController' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/AssignmentController.php',
+        'Globali\\Tutorial\\AssignmentSubmissionController' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/AssignmentSubmissionController.php',
+        'Globali\\Tutorial\\StudentTutorial' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/StudentTutorial.php',
+        'Globali\\Tutorial\\StudentTutorialController' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/StudentTutorialController.php',
+        'Globali\\Tutorial\\Tutorial' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/Tutorial.php',
+        'Globali\\Tutorial\\TutorialController' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/TutorialController.php',
+        'Globali\\Tutorial\\TutorialFile' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/TutorialFile.php',
+        'Globali\\Tutorial\\TutorialFileController' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/TutorialFileController.php',
+        'Globali\\Tutorial\\TutorialServiceProvider' => __DIR__ . '/../..' . '/packages/globali/tutorial/src/TutorialServiceProvider.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',
         'GuzzleHttp\\ClientInterface' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/ClientInterface.php',
         'GuzzleHttp\\Cookie\\CookieJar' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Cookie/CookieJar.php',
@@ -4687,6 +4703,7 @@ class ComposerStaticInit9e717924216f3eeb7d4282def106501a
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
+        'TutorialSeeder' => __DIR__ . '/../..' . '/database/seeds/TutorialSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',

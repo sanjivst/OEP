@@ -67,10 +67,9 @@
 
                             <div class="col-md-6">
                                 <select name="role" id="role" class="form-control">
-                                    <option value="0" {{($user->role==0)?'selected':''}}>Subscriber</option>
+                                    <option value="0" {{($user->role==0)?'selected':''}}>Teacher</option>
                                     <option value="1" {{($user->role==1)?'selected':''}}>Admin</option>
-                                    <option value="2" {{($user->role==2)?'selected':''}}>User</option>
-                                    <option value="3" {{($user->role==3)?'selected':''}}>Client</option>
+                                    <option value="2" {{($user->role==2)?'selected':''}}>Student</option>
                                 </select>
                             </div>
                         </div>

@@ -175,6 +175,8 @@ return [
         Globali\Teacher\TeacherServiceProvider::class,
         Globali\Student\StudentServiceProvider::class,
         Globali\Course\CourseServiceProvider::class,
+        Globali\Tutorial\TutorialServiceProvider::class,
+
         
         Intervention\Image\ImageServiceProvider::class,
         Alaouy\Youtube\YoutubeServiceProvider::class,

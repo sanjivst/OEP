@@ -60,6 +60,7 @@ return array(
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
+    'Globali\\Tutorial\\' => array($baseDir . '/packages/globali/tutorial/src'),
     'Globali\\Teacher\\' => array($baseDir . '/packages/globali/teacher/src'),
     'Globali\\Student\\' => array($baseDir . '/packages/globali/student/src'),
     'Globali\\Course\\' => array($baseDir . '/packages/globali/course/src'),

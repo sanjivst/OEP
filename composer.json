@@ -51,7 +51,8 @@
             "Client\\Project\\":"packages/client/project/src",
             "Globali\\Teacher\\":"packages/globali/teacher/src",
             "Globali\\Student\\":"packages/globali/student/src",
-            "Globali\\Course\\":"packages/globali/course/src"
+            "Globali\\Course\\":"packages/globali/course/src",
+            "Globali\\Tutorial\\":"packages/globali/tutorial/src"
         }
     },
     "minimum-stability": "dev",
